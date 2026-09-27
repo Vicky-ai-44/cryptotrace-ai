@@ -1,0 +1,20 @@
+{
+  "name": "cryptotrace-ai",
+  "version": "1.0.0",
+  "description": "Real-Time Blockchain Intelligence for Cybercrime Investigations",
+  "scripts": {
+    "build:frontend": "cd frontend && npm install && npm run build",
+    "build:backend": "cd backend && npm install && npm run build",
+    "build": "npm run build:frontend && npm run build:backend",
+    "start": "cd backend && npm start"
+  },
+  "keywords": [
+    "blockchain",
+    "forensics",
+    "cybercrime",
+    "vasp-attribution",
+    "cryptocurrency"
+  ],
+  "author": "CryptoTrace AI Team",
+  "license": "ISC"
+}
